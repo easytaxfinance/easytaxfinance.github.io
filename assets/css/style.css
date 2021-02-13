@@ -23,6 +23,16 @@
   .block-number a:focus {
     color: #191919; }
 
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+  
 .demo-section .main-content .section,
 .demo-topbar .main-content .topbar,
 .demo-navbar .main-content .navbar,
